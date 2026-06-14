@@ -1,7 +1,7 @@
 #!/bin/bash
 
 COMMAND=$1
-DATA_DIR="$(pwd)/data"
+DATA_DIR="//c/Users/makoto/hw3/data"
 
 case "$COMMAND" in
 
