@@ -19,14 +19,14 @@
 
 ## Просмотр отчёта через GitHub Codespaces
 
-1. Склонируй репозиторий в GitHub Codespaces
-2. Запусти все команды по порядку:
+1. Склонировать репозиторий в GitHub Codespaces
+2. Запуск всех команды по порядку:
    - ./run.sh build_generator
    - ./run.sh run_generator
    - ./run.sh build_reporter
    - ./run.sh run_reporter
    - ./run.sh report_server
-3. В Codespaces откройте вкладку Ports (внизу в VS Code)
-4. Найдите порт 8080 и нажмите Open in Browser
+3. В Codespaces открыть вкладку Ports (внизу в VS Code)
+4. Найти порт 8080 и Open in Browser
 
 Цепочка: браузер - Codespaces URL - порт 8080 на хосте Codespaces - порт 80 внутри nginx-контейнера - файл index.html примонтирован из папки data/
