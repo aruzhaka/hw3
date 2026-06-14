@@ -2,6 +2,7 @@
 
 COMMAND=$1
 DATA_DIR="//c/Users/makoto/hw3/data"
+export MSYS_NO_PATHCONV=1
 
 case "$COMMAND" in
 
