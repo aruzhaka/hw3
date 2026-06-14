@@ -55,6 +55,7 @@ case "$COMMAND" in
 
   report_server)
     echo "Запуск веб-сервера на порту 8080..."
+    cp data/report.html data/index.html
     docker run --rm -p 8080:80 -v "$DATA_DIR":/usr/share/nginx/html:ro nginx:alpine
     ;;
 
